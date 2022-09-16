@@ -114,6 +114,13 @@ span {
     margin-left: 1vw;
 }
 
+.sub::before {
+    content: ">";
+    color: #72665c;
+    margin-right: 1vw;
+
+}
+
 .col-title > .sub:hover {
     color: #5a5048;
 }
@@ -142,6 +149,10 @@ span {
 emp {
     color: #caad8e;
     font-weight: bold;
+}
+
+large {
+    font-size: 4vh;
 }
 
 a {
