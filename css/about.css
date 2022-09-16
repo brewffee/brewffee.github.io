@@ -16,6 +16,7 @@ body {
 
 .card {
     height: 100% !important;
+    width: 88vw !important;
     min-height: 69.6vh !important;
     margin: 2vh 1vw 1vh !important;
 }
