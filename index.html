@@ -5,8 +5,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script>
-            if (window.location.hostname == "kofybreww.github.io") {
+            // Remove .html from links, and/or redirect if 
+            // we're on the gh pages domain
+            if (window.location.hostname.startsWith("kofybreww")) {
                 window.location.replace("https://kofy.me");
+            }
+
+            if (window.location.pathname.endsWith(".html")) {
+                window.location.split(".html")[0];
             }
         </script>
         <link rel="stylesheet" href="css/styles.css">
