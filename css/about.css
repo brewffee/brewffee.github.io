@@ -1,26 +1,25 @@
 /* under 720px, stop decreasing font size */
-@media screen and (max-height: 720px) {
-    body {
-        overflow: scroll !important;
+.col-title  {
+    margin-bottom: 1px !important;
+}
+/*  */
+@media screen and (max-height: 620px) {
+    .container {
+        flex-direction: column;
     }
-    .col-title  {
-        margin-bottom: 1px !important;
+    .card {
+        margin: 1vh 1vw !important;  
     }
 }
-
 body {
     height: 100% !important;
+    margin-top: -8px !important; /* cheap fix lol */
     min-height: calc(100vh - 12vh) !important;
-    overflow: hidden !important;
 }
 
 .card {
     height: 100% !important;
     width: 88vw !important;
     min-height: 69.6vh !important;
-    margin: 2vh 1vw 1vh !important;
-}
-
-.section {
-    padding: 2px !important;
+    margin: 1vh 1vw !important;  
 }
